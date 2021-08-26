@@ -127,6 +127,7 @@ void setup()  /*----( SETUP: RUNS ONCE )----*/
   lcd.print("Booting up system...");
   delay(1000);
   setupReceiveSMS(); // Setting up Sim900 for Arduino mega 2560 board
+  terminal_display(); // Print some values to terminal
   lcd.clear();
   lcd.setCursor(0,1); //Start at character 0 on line 2
   lcd.print("Temperature control system version.001");
@@ -400,4 +401,9 @@ void test_IIC() //Debug I2C
   Serial.print ("Found ");
   Serial.print (count, DEC);
   Serial.println (" device(s).");
+}
+
+void terminal_display() // /*--Print some values to terminal--*/
+{
+
 }
