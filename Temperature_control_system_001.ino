@@ -403,7 +403,7 @@ void test_IIC() //Debug I2C
   Serial.println (" device(s).");
 }
 
-void terminal_display() // /*--Print some values to terminal--*/
+void terminal_display() // Print some values to terminal
 {
 
 }
