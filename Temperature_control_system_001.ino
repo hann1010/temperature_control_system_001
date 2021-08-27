@@ -410,4 +410,6 @@ void terminal_display() // Print some values to terminal
   Serial.println(heating_burner_al_level);
   Serial.print("Tank top = ");
   Serial.println(heating_tanktop_al_level);
+  Serial.print("Inline = ");
+  Serial.println(heating_inline_al_level);
 }
