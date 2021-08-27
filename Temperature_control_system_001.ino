@@ -412,4 +412,6 @@ void terminal_display() // Print some values to terminal
   Serial.println(heating_tanktop_al_level);
   Serial.print("Inline = ");
   Serial.println(heating_inline_al_level);
+  Serial.print("Hot water = ");
+  Serial.println(heating_hotwater_al_level);
 }
