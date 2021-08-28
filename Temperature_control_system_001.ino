@@ -362,6 +362,16 @@ void sendSMS()
   mySerial.println(heating_hotwater);
   mySerial.print("Out temp = ");
   mySerial.println(outdoor);
+  mySerial.println("");
+  mySerial.println("**Alarm levels**");
+  mySerial.print("Burner = ");
+  mySerial.println(heating_burner_al_level);
+  mySerial.print("Tank top = ");
+  mySerial.println(heating_tanktop_al_level);
+  mySerial.print("Inline = ");
+  mySerial.println(heating_inline_al_level);
+  mySerial.print("Hot water = ");
+  mySerial.println(heating_hotwater_al_level);
   delay(1000);
   mySerial.println((char)26);// ASCII code of CTRL+Z
   delay(1000);
