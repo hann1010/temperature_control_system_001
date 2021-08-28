@@ -405,6 +405,7 @@ void test_IIC() //Debug I2C
 
 void terminal_display() // Print some values to terminal
 {
+  Serial.println("");
   Serial.println("**Alarm levels**");
   Serial.print("Burner = ");
   Serial.println(heating_burner_al_level);
