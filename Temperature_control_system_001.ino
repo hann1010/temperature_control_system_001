@@ -386,6 +386,11 @@ void sendSMS()
  
 }
 
+void receiveSMS()
+{
+
+}
+
 void test_IIC() //Debug I2C
 {
   Serial.println ();
