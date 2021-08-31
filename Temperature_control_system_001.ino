@@ -386,9 +386,12 @@ void sendSMS()
  
 }
 
-void receiveSMS()
+void serialEvent()
 {
+  while (mySerial.available())
+  {
 
+  }
 }
 
 void test_IIC() //Debug I2C
