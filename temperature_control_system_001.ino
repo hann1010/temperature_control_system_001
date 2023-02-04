@@ -323,7 +323,7 @@ void sendAlarm()
 void sendSMS()
 {
   // Debug
-  Serial.println("Send test... ");
+  Serial.println("Send... ");
   Serial.print("PhoneNro = ");
   Serial.println(phoneNro);
   Serial.print("SendTitle = ");
