@@ -209,10 +209,10 @@ void setupReceiveSMS()
   mySerial.println("AT+CPIN=\"9009\"\r"); // Set Pin code
   Serial.println("Recieve Setup... Done "); //(Arduino uno only)
 
-  mySerial.println("AT+CMGF=1\r"); // turn to text mode
-  mySerial.println("AT+CMGR=ALL\r"); // read all SMS from the inbox
+  mySerial.println("AT+CMGF=1"); // turn to text mode
   mySerial.println("AT+CMGD=1,1"); // Delete all read SMS from Sim card
-  mySerial.println("AT+CMGL=ALL\r"); // AT Command to receive a live SMS
+  mySerial.println("AT+CNMI=2,2,0,0,0"); // AT Command to receive a live SMS
+  
   Serial.println("SMS Setup... Done "); //(Arduino uno only)
   
 }
