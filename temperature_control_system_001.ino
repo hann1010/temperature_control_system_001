@@ -26,9 +26,7 @@ For Arduino Mega 2560 board */
  ****************************************************/
 #include <Adafruit_MAX31865.h>
 
-
 #include <SoftwareSerial.h> // Comes with Arduino IDE
-
 
 /*-----( Declare Constants )-----*/
 const int powerOn = 2;   // Pin for set Sim900 power on
