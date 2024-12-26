@@ -57,11 +57,11 @@ Adafruit_MAX31865 temperature_sensor_outdoor = Adafruit_MAX31865(6, 11, 12, 13);
 //Adafruit_MAX31865 max = Adafruit_MAX31865(10);
 
 // The value of the Rref resistor. Use 430.0 for PT100 and 4300.0 for PT1000
-#define RREF_burner      427.0
-#define RREF_tanktop      427.0
-#define RREF_inline      427.0
-#define RREF_hotwater      427.0
-#define RREF_outdoor      427.0
+#define RREF_burner      425.0
+#define RREF_tanktop      425.0
+#define RREF_inline      425.0
+#define RREF_hotwater      425.0
+#define RREF_outdoor      425.0
 // The 'nominal' 0-degrees-C resistance of the sensor
 // 100.0 for PT100, 1000.0 for PT1000
 #define RNOMINAL  100.0
