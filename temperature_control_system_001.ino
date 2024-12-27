@@ -1,4 +1,3 @@
-
 /* Temperature_control_system_001 en Hanna P 2020-2024
 For Arduino Mega 2560 board */
 /********************************************/
@@ -32,7 +31,6 @@ For Arduino Mega 2560 board */
 const int powerOn = 2;   // Pin for set Sim900 power on
 const int testButton = 3;   // Pin for send test botton
 
-
 /*-----( Alarm levels )-----*/
 const float heating_burner_al_level = 55.00;
 const float heating_tanktop_al_level = 55.00;
@@ -65,7 +63,6 @@ Adafruit_MAX31865 temperature_sensor_outdoor = Adafruit_MAX31865(6, 11, 12, 13);
 // The 'nominal' 0-degrees-C resistance of the sensor
 // 100.0 for PT100, 1000.0 for PT1000
 #define RNOMINAL  100.0
-
 
 /*-----------------------------------------------------------------
 Note for SoftwareSerial:
