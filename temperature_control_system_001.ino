@@ -76,10 +76,7 @@ Note for SoftwareSerial:
 -------------------------------------------------------------------*/
 SoftwareSerial mySerial(51, 50); // 3=TX 2=RX in GSM shield side Arduino uno only
 
-
 /*-----( Declare Variables )-----*/
-
-
 String phoneNro = "";
 String sendTitle = "";
 
@@ -96,9 +93,9 @@ float heating_inline;
 float heating_hotwater;
 float outdoor;
 
-
 //boolean sendRequest = false;
 //boolean sendDone = true;
+
 
 void setup()  /*----( SETUP: RUNS ONCE )----*/
 {
