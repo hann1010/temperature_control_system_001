@@ -132,11 +132,9 @@ void loop() /*----( LOOP: RUNS CONSTANTLY )----*/
   /*----------Print some values to terminal-----------*/
   //Serial.print("outdoor temperature = "); Serial.println(Temperature_sensor_outdoor.temperature(RNOMINAL, RREF_outdoor));
   
-
   /*----------Print to LCD-----------*/
   for(int i = 0; i< 10; i++)
   {
-    
     sendTestSMS(); // Reading test button and if pressed send test SMS
     temperatureRead(); // Reading temperature from sensor)
     sendAlarm(); // Reading temperature values and if necessary send SMS
