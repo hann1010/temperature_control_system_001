@@ -187,7 +187,6 @@ void setupReceiveSMS()
 {
   /* Setting up Sim900 for Arduino mega 2560 board
   ------------------------------------------------*/
-  
   digitalWrite(powerOn, HIGH);  // Auto power on, set power sw pin to High
   delay(1000);                  
   digitalWrite(powerOn, LOW);   // Auto power on, set power sw pin to Low
@@ -201,7 +200,6 @@ void setupReceiveSMS()
   mySerial.println("AT+CMGD=1,1"); // Delete all read SMS from Sim card
   mySerial.println("AT+CNMI=2,2,0,0,0"); // AT Command to receive a live SMS
   Serial.println("SMS Setup... Done "); //(Arduino uno only)
-  
 }
 
 
