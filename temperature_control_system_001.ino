@@ -203,7 +203,6 @@ void setupReceiveSMS()
 }
 
 
-
 void temperatureRead()
 {
   /* Reading temperature from sensors
@@ -225,8 +224,7 @@ void temperatureRead()
   Serial.println(heating_hotwater);
   Serial.print("Out temp = ");
   Serial.println(outdoor);
-  
-  Serial.print("numOfMsgRecieve = ");
+    Serial.print("numOfMsgRecieve = ");
   Serial.println(numOfMsgRecieve);
   */
 }
