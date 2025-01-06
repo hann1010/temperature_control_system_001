@@ -365,7 +365,6 @@ void sendSMS()
   lcd.print("No = ");lcd.print(phoneNro);
   delay(4000);
   numOfMsgSend += 1;
- 
 }
 
 void serialEvent()
