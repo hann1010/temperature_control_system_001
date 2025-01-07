@@ -367,6 +367,7 @@ void sendSMS()
   numOfMsgSend += 1;
 }
 
+
 void serialEvent()
 {
   while (mySerial.available())
