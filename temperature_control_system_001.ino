@@ -376,6 +376,7 @@ void serialEvent()
   }
 }
 
+
 void test_IIC() //Debug I2C
 {
   Serial.println ();
