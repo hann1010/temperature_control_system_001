@@ -382,7 +382,6 @@ void test_IIC() //Debug I2C
   Serial.println ();
   Serial.println ("I2C scanner. Scanning ...");
   byte count = 0;
- 
   Wire.begin();
   for (byte i = 1; i < 120; i++)
   {
