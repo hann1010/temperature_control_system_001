@@ -358,7 +358,7 @@ void sendSMS()
   mySerial.println((char)26);// ASCII code of CTRL+Z
   delay(1000);
   Serial.println("Message has been sent");
-//  lcd.clear();
+  // lcd.clear();
   lcd.setCursor(0, 2);
   lcd.print("Msg has been sent");
   lcd.setCursor(0, 3);
