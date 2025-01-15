@@ -355,7 +355,7 @@ void sendSMS()
   mySerial.print("Hot water = ");
   mySerial.println(heating_hotwater_al_level);
   delay(1000);
-  mySerial.println((char)26);// ASCII code of CTRL+Z
+  mySerial.println((char)26); // ASCII code of CTRL+Z
   delay(1000);
   Serial.println("Message has been sent");
   // lcd.clear();
