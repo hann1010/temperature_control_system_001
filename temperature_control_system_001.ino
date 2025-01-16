@@ -332,7 +332,7 @@ void sendSMS()
   mySerial.print(phoneNro);  //***
   mySerial.println(char(34)); // End of setting phone nro with " (char(34)
   delay(1000);
-  mySerial.print("SendTitle = ");// The SMS text you want to send
+  mySerial.print("SendTitle = "); // The SMS text you want to send
   mySerial.println(sendTitle);
   mySerial.print("Burner = ");
   mySerial.println(heating_burner);
