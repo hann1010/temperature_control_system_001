@@ -326,7 +326,7 @@ void sendSMS()
   //Serial.print("Send message... "); //(Arduino uno only)
   mySerial.println("AT+CMGF=1");    //Sets the GSM Module in Text Mode
   delay(1000);  // Delay of 1000 milli seconds or 1 second
- // mySerial.println("AT+CMGS=\"x\"\r"); // Replace x with mobile number
+  // mySerial.println("AT+CMGS=\"x\"\r"); // Replace x with mobile number
   mySerial.print("AT+CMGS="); // Set phone nro 
   mySerial.print(char(34));  //***  ASCII code of " (char(34)
   mySerial.print(phoneNro);  //***
