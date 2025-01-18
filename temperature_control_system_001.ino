@@ -251,7 +251,7 @@ void sendTestSMS()
 void sendAlarm()
 {
     /* Reading temperature values and if necessary send alarm SMS message.
-  -----------------------------------------------------------------------*/
+    -----------------------------------------------------------------------*/
   int alarm_level = 0; 
   if (heating_burner < (heating_burner_al_level + heating_burner_alarm_hys))
   {
