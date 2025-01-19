@@ -174,8 +174,8 @@ void loop() /*----( LOOP: RUNS CONSTANTLY )----*/
 //        lcd.print("P No = "); lcd.print(phoneNro);
         lcd.setCursor(0,3); 
         lcd.print("Num of Msg send = "); lcd.print(numOfMsgSend);
-        //lcd.clear(); 
-//        lcd.print("str "); lcd.print(inputString.substring(90,130));
+        // lcd.clear(); 
+        // lcd.print("str "); lcd.print(inputString.substring(90,130));
         delay(1000);
       }
   }
