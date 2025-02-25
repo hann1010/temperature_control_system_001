@@ -127,6 +127,7 @@ void setup()  /*----( SETUP: RUNS ONCE )----*/
   lcd.clear();
 } /*--(end setup )---*/
 
+
 void loop() /*----( LOOP: RUNS CONSTANTLY )----*/
 {
   /*----------Print some values to terminal-----------*/
