@@ -249,6 +249,7 @@ void sendTestSMS()
 
 }
 
+
 void sendAlarm()
 {
     /* Reading temperature values and if necessary send alarm SMS message.
