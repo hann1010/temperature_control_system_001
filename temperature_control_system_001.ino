@@ -246,7 +246,6 @@ void sendTestSMS()
     sendTitle = "Test message";
     sendSMS();
   }
-
 }
 
 
