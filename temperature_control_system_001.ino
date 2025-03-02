@@ -74,6 +74,7 @@ Note for SoftwareSerial:
  so only the following can be used for RX:
  8, 9, 10, 11, 14 (MISO), 15 (SCK), 16 (MOSI).
 -------------------------------------------------------------------*/
+
 SoftwareSerial mySerial(51, 50); // 3=TX 2=RX in GSM shield side Arduino uno only
 
 /*-----( Declare Variables )-----*/
