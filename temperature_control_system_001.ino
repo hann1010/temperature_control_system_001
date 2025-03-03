@@ -43,6 +43,7 @@ const float heating_hotwater_al_level = 50.00;
 //                    addr, en,rw,rs,d4,d5,d6,d7,bl,blpol
 // Set the LCD I2C address 0x20, 0x3f or something else,
 // depending on the I2C circuit
+
 LiquidCrystal_I2C lcd(0x3f, 2, 1, 0, 4, 5, 6, 7, 3, POSITIVE); 
 
 // Use software SPI: CS, DI, DO, CLK
